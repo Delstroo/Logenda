@@ -67,7 +67,7 @@
         <!--Main Screen View Controller-->
         <scene sceneID="03I-zY-6Uk">
             <objects>
-                <viewController id="hzb-cI-Quf" customClass="MainScreenViewController" customModule="LogensApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ResultsVC" id="hzb-cI-Quf" customClass="MainScreenViewController" customModule="LogensApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KhD-rm-N49">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -344,7 +344,7 @@
         <!--Topic Selector Table View Controller-->
         <scene sceneID="8c6-ga-gNc">
             <objects>
-                <tableViewController restorationIdentifier="TopicSelection" storyboardIdentifier="TopicSelection" id="kMY-o8-0D3" customClass="TopicSelectorTableViewController" customModule="LogensApp" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController restorationIdentifier="TopicSelection" id="kMY-o8-0D3" customClass="TopicSelectorTableViewController" customModule="LogensApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="Lge-VX-6qM">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -402,10 +402,10 @@
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="69.642857142857139"/>
         </scene>
-        <!--Fight Video View Controller-->
+        <!--Video View Controller-->
         <scene sceneID="tPI-gt-50l">
             <objects>
-                <viewController storyboardIdentifier="FightSceneVC" id="TC7-55-vjE" customClass="FightVideoViewController" customModule="LogensApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FightSceneVC" id="TC7-55-vjE" customClass="VideoViewController" customModule="LogensApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6D4-na-BlM">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

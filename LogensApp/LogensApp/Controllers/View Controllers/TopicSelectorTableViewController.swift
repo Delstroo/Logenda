@@ -18,7 +18,16 @@ class TopicSelectorTableViewController: UITableViewController {
     //MARK: - Life Cycles
     override func viewDidLoad() {
         super.viewDidLoad()
+        let value = UIInterfaceOrientation.portrait.rawValue
+        UIDevice.current.setValue(value, forKey: "orientation")
+    }
 
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return .portrait
+    }
+    
+    override var shouldAutorotate: Bool {
+        return true
     }
 
     // MARK: - Table view data source

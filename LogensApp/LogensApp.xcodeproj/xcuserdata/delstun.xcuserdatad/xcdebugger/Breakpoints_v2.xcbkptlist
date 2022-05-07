@@ -30,8 +30,8 @@
             filePath = "LogensApp/Controllers/View Controllers/TopicSelectorTableViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
             landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -39,16 +39,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "6DE22C55-A44B-47EE-B95C-83AA9FCEFC68"
+            uuid = "940E84AB-A164-4F7D-A060-51E192F6362A"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LogensApp/Controllers/View Controllers/VideoViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "18"
-            endingLineNumber = "18"
-            landmarkName = "viewDidLoad()"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "viewDidAppear(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

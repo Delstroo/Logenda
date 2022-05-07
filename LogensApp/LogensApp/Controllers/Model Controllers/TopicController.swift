@@ -16,23 +16,23 @@ class TopicController {
             bio: "5 Videos",
             videos: [
                 Video(
-                    videoName: "Earth Planer",
+                    videoName: "HAND TO HAND",
                     videoDescription: "Turtle"
                 ),
                 Video(
-                    videoName: "Their PS5",
+                    videoName: "HAND OVER HAND",
                     videoDescription: "Turtle"
                 ),
                 Video(
-                    videoName: "Their Dog",
+                    videoName: "ONE HAND STEERING",
                     videoDescription: "Turtle"
                 ),
                 Video(
-                    videoName: "Their Other Dog",
+                    videoName: "ONE HAND STEERING AGAIN",
                     videoDescription: "Turtle"
                 ),
                 Video(
-                    videoName: "Their mom",
+                    videoName: "ONE HAND STEERING AGAIN 2",
                     videoDescription: "Turtle"
                 )
             ]
