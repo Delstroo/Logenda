@@ -16,6 +16,7 @@ class TopicController {
             bio: "5 Videos",
             videos: [
                 Video(
+<<<<<<< HEAD
                     videoName: "Example 1",
                     videoDescription: "earth"
                 ),
@@ -34,6 +35,26 @@ class TopicController {
                 Video(
                     videoName: "Example 5",
                     videoDescription: "production ID_3750624"
+=======
+                    videoName: "HAND TO HAND",
+                    videoDescription: "Turtle"
+                ),
+                Video(
+                    videoName: "HAND OVER HAND",
+                    videoDescription: "Turtle"
+                ),
+                Video(
+                    videoName: "ONE HAND STEERING",
+                    videoDescription: "Turtle"
+                ),
+                Video(
+                    videoName: "ONE HAND STEERING AGAIN",
+                    videoDescription: "Turtle"
+                ),
+                Video(
+                    videoName: "ONE HAND STEERING AGAIN 2",
+                    videoDescription: "Turtle"
+>>>>>>> 5fda9a626a7ea5b1f564fd1e2e64b37942095441
                 )
             ]
         ),

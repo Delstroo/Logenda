@@ -43,9 +43,18 @@ class MainScreenViewController: UIViewController, UITableViewDelegate, UITableVi
         searchBar.searchBarStyle = UISearchBar.Style.minimal
            searchBarButtonItem = navigationItem.rightBarButtonItem
         searchBar.showsCancelButton = true
-         
+        super.viewDidLoad()
+        let value = UIInterfaceOrientation.portrait.rawValue
+        UIDevice.current.setValue(value, forKey: "orientation")
+    }
+
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return .portrait
     }
     
+    override var shouldAutorotate: Bool {
+        return true
+    }
     //MARK: - Actions
 
     @IBAction func searchButtonPressed(sender: AnyObject) {
