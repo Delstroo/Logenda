@@ -48,21 +48,16 @@ class TopicSelectorTableViewController: UITableViewController {
         let video = topic?.videos[indexPath.row]
         
         cell.textLabel?.text = video?.videoName
-      //  playVideo()
         return cell
     }
-//
-//    private func playVideo() {
-//        guard let path = Bundle.main.path(forResource: "\(videos.)", ofType:"m4v") else {
-//            debugPrint("video.m4v not found")
-//            return
-//        }
-//        let player = AVPlayer(url: URL(fileURLWithPath: path))
-//        let playerController = AVPlayerViewController()
-//        playerController.player = player
-//        present(playerController, animated: true) {
-//            player.play()
-//        }
-//    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "videoVC" {
+            guard let indexPath = tableView.indexPathForSelectedRow,
+                  let destination = segue.destination as? VideoPlayViewController else { return }
+            let topicToSend = topic?.videos[indexPath.row]
+            destination.video = topicToSend
+        }
+    }
 }
 
