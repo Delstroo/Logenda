@@ -16,24 +16,24 @@ class TopicController {
             bio: "5 Videos",
             videos: [
                 Video(
-                    videoName: "Earth Planer",
-                    videoDescription: "Turtle"
+                    videoName: "Example 1",
+                    videoDescription: "earth"
                 ),
                 Video(
-                    videoName: "Their PS5",
-                    videoDescription: "Turtle"
+                    videoName: "Example 2",
+                    videoDescription: "production ID_3750624"
                 ),
                 Video(
-                    videoName: "Their Dog",
-                    videoDescription: "Turtle"
+                    videoName: "Example 3",
+                    videoDescription: "earth"
                 ),
                 Video(
-                    videoName: "Their Other Dog",
-                    videoDescription: "Turtle"
+                    videoName: "Example 4",
+                    videoDescription: "production ID_3750624"
                 ),
                 Video(
-                    videoName: "Their mom",
-                    videoDescription: "Turtle"
+                    videoName: "Example 5",
+                    videoDescription: "production ID_3750624"
                 )
             ]
         ),
